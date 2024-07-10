@@ -177,7 +177,7 @@ def breadcrumbs(request):
 
         if len(parts) == 0:
             user_breadcrumbs[user_id].clear()
-            user_breadcrumb.append({"url": base_url, "name": "Horilla", "found": True})
+            user_breadcrumb.append({"url": base_url, "name": "Neorilla", "found": True})
 
         if len(parts) > 1:
             last_path = parts[-1]
